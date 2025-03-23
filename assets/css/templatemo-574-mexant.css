@@ -1791,3 +1791,64 @@ body {
     padding: 50px;
   }
 }
+
+
+
+
+
+
+/* Mobilga moslashtirish uchun Media Queries qo'shildi */
+
+@media (max-width: 1200px) {
+  .container {
+      width: 95%;
+  }
+}
+
+@media (max-width: 992px) {
+  .navbar {
+      flex-direction: column;
+      text-align: center;
+  }
+  .navbar ul {
+      flex-direction: column;
+      padding: 0;
+  }
+  .navbar ul li {
+      width: 100%;
+      padding: 10px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+      flex-direction: column;
+      text-align: center;
+  }
+  .hero img {
+      width: 90%;
+      height: auto;
+  }
+  .hero .content {
+      padding: 20px;
+  }
+  .btn {
+      width: 100%;
+      text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+      font-size: 14px;
+  }
+  .header {
+      padding: 10px;
+  }
+  .hero img {
+      width: 100%;
+  }
+  .footer {
+      text-align: center;
+  }
+}
